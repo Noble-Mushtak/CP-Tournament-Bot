@@ -2,10 +2,10 @@
 
 This GitHub repository holds a Python bot which can be used to hold a Swiss-style competitive programming contest. Here's some instructions on how to use the bot: (note that in the instructions below, it is assumed that `python` is Python 3, you may need to run `python3` instead if `python` on your system is Python 2)
 
-Step 1: Run the following commands:
+Step 1: Run the following commands in the terminal:
 
-    git clone <github-repo>
-    cd <directory>
+    git clone https://github.com/Noble-Mushtak/CP-Tournament-Bot.git
+    cd CP-Tournament-Bot
     pip install -r requirements.txt
 
 Step 2: In the directory containing `bot.py`, create a `points.txt` where each line is of the form `<name> <atcoder_username> <codeforces_username> 0`. The 0 represents every person starts out with 0 points. If there are some helpers who are designated who are only planning on playing the people who get "byes" in certain rounds, then give them 1000 points instead of 0 so the helpers are in their own group.
